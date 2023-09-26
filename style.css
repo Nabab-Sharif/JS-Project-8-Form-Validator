@@ -97,10 +97,13 @@ button:focus {
   padding-bottom: 10px;
 }
 
+
+
+
 input:valid {
-  border: 1px solid green;
+  border: 1px solid rgb(20, 169, 20);
 }
 
 input:invalid {
-  border: 1px solid red;
+  border: 1px solid rgb(135, 10, 10);
 }
