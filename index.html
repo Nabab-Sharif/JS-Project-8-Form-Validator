@@ -18,32 +18,33 @@
     <form id="form">
       <div class="form-group">
         <label for="name">Full Name</label>
-        <input id="name">
+        <input id="name" type="text" name="name" placeholder="Full name" required>
       </div>
 
       <div class="form-group">
         <label for="email">Email Address</label>
-        <input id="email">
+        <input id="email" type="email" name="email" placeholder="email@example.com" required>
       </div>
 
       <div class="form-group">
         <label for="phone">Phone Number</label>
-        <input id="phone">
+        <input id="phone" type="tel" name="phone" placeholder="11111-111111" required>
       </div>
 
       <div class="form-group">
         <label for="website">Website URL</label>
-        <input id="website">
+        <input id="website" type="url" name="website" placeholder="https://www.google.com/" required>
       </div>
 
       <div class="form-group">
         <label for="password1">Password</label>
-        <input id="password1">
+        <input id="password1" type="password" name="password" placeholder="Create password (Min. 8 Characters)"
+          required>
       </div>
 
       <div class="form-group">
         <label for="password2">Confirm Password</label>
-        <input id="password2">
+        <input id="password2" type="password" name="confirmPassword" placeholder="Confirm Password" required>
       </div>
 
       <button type="submit">Register</button>
